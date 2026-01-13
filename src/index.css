@@ -13,6 +13,75 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 90%);
+  border: 5px solid;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: burlywood;
+  text-shadow: 2px 2px 2px hsl(0, 13%, 8%);
+  margin-bottom: 25px;
+}
+
+.controls button{
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+
+  background-color: rgb(11, 172, 11);
+
+}
+
+.start-button:hover{
+
+  background-color: rgb(87, 236, 87);
+
+}
+
+.stop-button{
+
+  background-color: rgb(168, 4, 7);
+
+}
+
+.stop-button:hover{
+
+  background-color: rgb(234, 73, 73);
+
+}
+
+.reset-button{
+
+  background-color: rgb(9, 63, 130);
+
+}
+
+.reset-button:hover{
+
+  background-color: rgb(62, 137, 191);
+
+}
+
+
+
 .card{
   border : 1px solid rgb(129, 124, 124);
   border-radius: 10px;

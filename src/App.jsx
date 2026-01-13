@@ -21,6 +21,7 @@ import MyComponenet8 from "./MyComponent8.jsx";
 import DigitalClock from "./DigitalCLock.jsx";
 import ComponentA from "./ComponentA.jsx";
 import MyComponent9 from "./MyComponenet9.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 
 function App() {
 
@@ -39,6 +40,9 @@ function App() {
   return(
     <>
     <Header/>
+    <Stopwatch/>
+
+    
     <Food/>
     <Card/>
     <Button/>
