@@ -1,0 +1,279 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color:  rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card{
+  border : 1px solid rgb(129, 124, 124);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(106, 104, 104);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#1a1a1a
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 0%,.5);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%,.5);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+
+.list-items li{
+  font: 2em;
+  list-style: none;
+  color: hsl(187, 6%, 27%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color:hsl(187, 6%, 45%);
+  cursor:pointer;
+}
+
+.profilepicture-image{
+  width: 350px;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.count-display{
+  font-size: 5rem;
+  margin: 0;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0px 5px;
+  text-align: center;
+  background-color: rgb(68, 88, 81);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.counter-button:hover{
+  background-color: rgb(158, 183, 174);
+  border: none;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: .25s ease;
+}
+
+.color-display p{
+  color:#696a6e;
+  font-size: 2rem;
+  text-align: center;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid gainsboro;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #696a6e;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.to-do-list{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.clock-container{
+
+  background-image: url("src/assets/background.jpg");
+  width: auto;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:70px;
+  color: white;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, .75);
+  backdrop-filter: blur(50px);
+
+  
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
+
+input{
+  font-size: 1.6rem;
+  padding: 10px;
+  border:2px solid gainsboro;
+  border-radius: 5px;
+  margin:5px; 
+}
+
+button{
+  margin-inline: 10px;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  display: flex;
+  margin:5px; 
+}
+
+.text{
+  flex:1;
+
+}
+
+.delete-button{
+  background-color: red;
+}
+
+.move-button{
+  background-color: aliceblue;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
